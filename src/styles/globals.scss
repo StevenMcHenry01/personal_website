@@ -1,0 +1,94 @@
+:root {
+  // colors
+  --color-main-blue: #172C66;
+  --color-main-pop: #6FC1A6;
+  --color-main-gray: #AFAFAF;
+  --color-background: #FEF6E4;
+  --color-black: #2b2b2b;
+  --color-white: #fbfbfb;
+  --color-gray-0: #e4e4e4;
+  --color-gray-1: #b7b7af;
+  --color-gray-2: #848388;
+  --color-gray-3: #5d5e60;
+  --color-gray-4: #373737;
+  --color-success: #8af09b;
+  --color-error: #fa113d;
+
+  // breakpoints
+  --breakpoint-small: 640px;
+  --breakpoint-medium: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+@font-face {
+  font-family: guntur;
+  src: url('/fonts/HindGuntur-Regular.ttf');
+}
+@font-face {
+  font-family: montserrat;
+  src: url('/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: nunito;
+  src: url('/fonts/Nunito-Regular.ttf');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: guntur, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  color: #2b2b2b; // off-black... so hot right now
+  background: linear-gradient(var(--color-background), #fcf8ee);
+
+  p {
+    font-family: guntur, Roboto;
+    font-size: 1.05rem;
+  }
+  h1 {
+    font-family: nunito, Ubuntu;
+    font-size: 3.5rem;
+    margin: 1.5rem 0;
+    @media only screen and (max-width: 640px) {
+      font-size: 2.5rem;
+      margin: 1rem 0;
+    }
+  }
+  h2 {
+    margin: 1rem 0;
+    font-family: montserrat, Fira Sans;
+  }
+  button {
+    font-family: nunito, Ubuntu;
+  }
+}
+
+// usually dont want these bold
+h2,
+h3,
+h4 {
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// content size takes padding/border into account
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// by default, these elements don't use your font
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}

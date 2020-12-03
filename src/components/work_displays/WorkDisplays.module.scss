@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  height: 530px;
+  @media only screen and (max-width: 1280px) {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+  }
+}
+
+.image {
+  width: 640px;
+  position: absolute;
+  @media only screen and (max-width: 1280px) {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.image1 {
+  margin-top: 100px;
+  @media only screen and (max-width: 1280px) {
+    margin-top: 0;
+  }
+  &:hover {
+    z-index: 3;
+  }
+}
+.image2 {
+  margin-left: 300px;
+  margin-top: 50px;
+  z-index: 1;
+  @media only screen and (max-width: 1280px) {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  &:hover {
+    z-index: 3;
+  }
+}
+.image3 {
+  margin-left: 600px;
+  z-index: 2;
+  @media only screen and (max-width: 1280px) {
+    margin-left: 0;
+  }
+  &:hover {
+    z-index: 3;
+  }
+}

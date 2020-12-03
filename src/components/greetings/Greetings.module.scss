@@ -1,0 +1,38 @@
+.greetings_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3rem;
+  padding: 5rem;
+  h2 {
+    color: var(--color-main-gray);
+  }
+  @media only screen and (max-width: 910px) {
+    margin-top: 1rem;
+    width: 50%;
+    padding: 2rem;
+  }
+  @media only screen and (max-width: 640px) {
+    margin-top: 0;
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+.pop {
+  animation: colorRotate 4s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: var(--color-main-pop);
+  }
+  50% {
+    color:var(--color-main-blue);
+  }
+  100% {
+    color: var(--color-main-pop);
+  }
+}

@@ -37,16 +37,15 @@ export const AboutMe = () => {
           team.
         </p>
         <div className={styles.buttons_container}>
-          <Link href="/photos">
-            <a>
-              <button
-                className="main_button"
-                style={{ padding: '.5rem 1.5rem' }}
-              >
-                View photos
-              </button>
+          <button className="main_button" style={{ padding: '.5rem 1.5rem' }}>
+            <a
+              href="https://github.com/StevenMcHenry01"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              View github
             </a>
-          </Link>
+          </button>
           <button className="main_button" style={{ padding: '.5rem 1.5rem' }}>
             <a href="/Resume.pdf" download>
               View resume

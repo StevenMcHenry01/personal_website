@@ -1,5 +1,4 @@
 // 3rd party imports
-import Link from 'next/link'
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 

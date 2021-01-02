@@ -19,9 +19,9 @@ export const Greetings = () => {
         I make <span className={styles.pop}>stuff</span>.
       </animated.h1>
       <p>
-        I’m a current student at SFSU set to graduate December 2020. Web-dev is
-        my current passion, but I am always trying to push myself out of my
-        comfort zone and learn new things.
+        I am a recent graduate with a degree in Computer Science! Web-dev is my
+        current passion, but I am always trying to push myself out of my comfort
+        zone and learn new things.
       </p>
       <Link href="/about">
         <a>

@@ -25,9 +25,9 @@ export const AboutMe = () => {
       <div className={styles.content}>
         <h1>About Me</h1>
         <p>
-          Hello! My name is Steven McHenry and I am a current senior at SFSU.
-          Programming is my passion and nothing makes me more happy than solving
-          complex problems in elegant ways.
+          Hello! My name is Steven McHenry and I am a recent Computer Science
+          graduate at SFSU. Programming is my passion and nothing makes me more
+          happy than solving complex problems in elegant ways.
         </p>
         <p>
           At the moment I am looking for a company in which I can showcase my
